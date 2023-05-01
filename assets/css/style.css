@@ -1,3 +1,20 @@
+:root{
+    --dark-color: #19283f;
+    --green-color: #00c7c0;
+}
 body {
     font-family: "Roboto", sans-serif;
+    height: 1000px;
+}
+/* navbar */
+.navbar{
+    background-color: var(--dark-color);
+}
+a.nav-link{
+    color: #82929e;
+}
+a.nav-link.active,
+a.nav-link:focus,
+a.nav-link:hover{
+    color: var(--green-color) !important;
 }
