@@ -1,4 +1,4 @@
-:root{
+:root {
     --dark-color: #19283f;
     --green-color: #00c7c0;
 }
@@ -7,7 +7,7 @@ body {
     height: 1000px;
 }
 /* navbar */
-.navbar{
+.navbar {
     background-color: var(--dark-color);
 }
 a.nav-link{
@@ -15,6 +15,23 @@ a.nav-link{
 }
 a.nav-link.active,
 a.nav-link:focus,
-a.nav-link:hover{
+a.nav-link:hover {
     color: var(--green-color) !important;
+}
+.search {
+    border-left: 1px solid var(--green-color);
+    color: var(--green-color);
+    cursor: pointer;
+}
+.navbar .navbar-toggler {
+    /* background-color: aliceblue; */
+    color: var(--green-color);
+    border-color: white;
+    font-size: 25px;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--green-color);
 }
