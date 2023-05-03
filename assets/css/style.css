@@ -1,12 +1,25 @@
 :root {
     --dark-color: #19283f;
     --green-color: #00c7c0;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
 }
 body {
     font-family: "Roboto", sans-serif;
     height: 1000px;
 }
-/* navbar */
+.main-btn {
+    background-color: var(--red-color) !important;
+    color: var(--yellow-color) !important;
+    padding: 0.5rem 1rem !important; 
+}
+.main-btn:hover {
+    color: var(--dark-color) !important;
+}
+.btn-primary:hover {
+    color: var(--dark-color) !important;
+}
+/* Start navbar */
 .navbar {
     background-color: var(--dark-color);
 }
@@ -24,7 +37,6 @@ a.nav-link:hover {
     cursor: pointer;
 }
 .navbar .navbar-toggler {
-    /* background-color: aliceblue; */
     color: var(--green-color);
     border-color: white;
     font-size: 25px;
@@ -35,3 +47,22 @@ a.nav-link:hover {
 .navbar .navbar-toggler[aria-expanded="true"] {
     border-color: var(--green-color);
 }
+/* End navbar */
+/* Start landing section */
+.landing {
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 70px);
+}
+/* End landing section */
+/* Start features section */
+.main-title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* End features section */
