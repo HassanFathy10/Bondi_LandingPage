@@ -3,7 +3,8 @@
     --green-color: #00c7c0;
     --red-color: #ff3150;
     --yellow-color: #ffc400;
-    --section-color: #94808034;
+    --numbers-color: #94808025;
+    --section-color: #eff7fa;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -56,6 +57,9 @@ a.nav-link:hover {
 }
 /* End landing section */
 /* Start services section */
+.services {
+    background-color: var(--section-color);
+}
 .main-title::after {
     content: "";
     width: 120px;
@@ -74,7 +78,7 @@ a.nav-link:hover {
     transform: translateX(-50%);
 }
 .services .number {
-    color: var(--section-color);
+    color: var(--numbers-color);
     font-size: 12rem;
 }
 .services .icon {
@@ -85,6 +89,17 @@ a.nav-link:hover {
     color: var(--yellow-color);
 }
 /* End services section */
-/* Start work section */
-
-/* End work section */
+/* Start portfolio section */
+.portfolio {
+    background-color: var(--section-color);
+    height: 100vh;
+}
+.portfolio ul .active {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    border-radius: 1rem;
+}
+.portfolio ul li:not(.active):hover {
+    color: var(--yellow-color);
+}
+/* End portfolio section */
