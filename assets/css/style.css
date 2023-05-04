@@ -75,7 +75,7 @@ a.nav-link:hover {
 }
 .features .number {
     color: var(--section-color);
-    font-size: 10rem;
+    font-size: 12rem;
 }
 .features .icon {
     color: var(--green-color);
