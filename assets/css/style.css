@@ -55,7 +55,7 @@ a.nav-link:hover {
     min-height: calc(100vh - 70px);
 }
 /* End landing section */
-/* Start features section */
+/* Start services section */
 .main-title::after {
     content: "";
     width: 120px;
@@ -66,22 +66,25 @@ a.nav-link:hover {
     left: 50%;
     transform: translateX(-50%);
 }
-.features .icon-holder {
+.services .icon-holder {
     height: 200px;
 }
-.features .icon-holder svg{
+.services .icon-holder svg{
     left: 50%;
     transform: translateX(-50%);
 }
-.features .number {
+.services .number {
     color: var(--section-color);
     font-size: 12rem;
 }
-.features .icon {
+.services .icon {
     color: var(--green-color);
     font-size: 6rem;
 }
-.features h4 {
+.services h4 {
     color: var(--yellow-color);
 }
-/* End features section */
+/* End services section */
+/* Start work section */
+
+/* End work section */
