@@ -3,6 +3,7 @@
     --green-color: #00c7c0;
     --red-color: #ff3150;
     --yellow-color: #ffc400;
+    --section-color: #94808034;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -64,5 +65,23 @@ a.nav-link:hover {
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
+}
+.features .icon-holder {
+    height: 200px;
+}
+.features .icon-holder svg{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .number {
+    color: var(--section-color);
+    font-size: 10rem;
+}
+.features .icon {
+    color: var(--green-color);
+    font-size: 6rem;
+}
+.features h4 {
+    color: var(--yellow-color);
 }
 /* End features section */
