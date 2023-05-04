@@ -8,7 +8,6 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    height: 1000px;
 }
 .main-btn {
     background-color: var(--red-color) !important;
@@ -21,6 +20,7 @@ body {
 .btn-primary:hover {
     color: var(--dark-color) !important;
 }
+
 /* Start navbar */
 .navbar {
     background-color: var(--dark-color);
@@ -50,12 +50,14 @@ a.nav-link:hover {
     border-color: var(--green-color);
 }
 /* End navbar */
+
 /* Start landing section */
 .landing {
     background-color: var(--dark-color);
     min-height: calc(100vh - 70px);
 }
 /* End landing section */
+
 /* Start services section */
 .services {
     background-color: var(--section-color);
@@ -89,17 +91,32 @@ a.nav-link:hover {
     color: var(--yellow-color);
 }
 /* End services section */
+
 /* Start portfolio section */
 .portfolio {
     background-color: var(--section-color);
     height: 100vh;
 }
-.portfolio ul .active {
+.portfolio .active {
     background-color: var(--red-color);
     color: var(--yellow-color);
     border-radius: 1rem;
 }
-.portfolio ul li:not(.active):hover {
+.portfolio span {
+    padding: 0.6rem;
+    cursor: pointer;
+}
+.portfolio span:not(.active):hover {
     color: var(--yellow-color);
 }
+.portfolio .box {
+
+}
 /* End portfolio section */
+
+/* media query */
+@media screen and (max-width: 320px) {
+    body {
+        font-size: small !important;
+    }
+}
