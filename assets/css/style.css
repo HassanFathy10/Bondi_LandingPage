@@ -142,6 +142,9 @@ a.nav-link:hover {
 .contact .title {
     color: var(--yellow-color);
 }
+.contact .card {
+    background-color: var(--green-color);
+}
 /* End Contact section */
 
 /* media query */
