@@ -12,7 +12,7 @@ body {
 .main-btn {
     background-color: var(--red-color) !important;
     color: var(--yellow-color) !important;
-    padding: 0.5rem 1rem !important; 
+    padding: 0.5rem 1rem !important;
 }
 .main-btn:hover {
     color: var(--dark-color) !important;
@@ -95,7 +95,6 @@ a.nav-link:hover {
 /* Start portfolio section */
 .portfolio {
     background-color: var(--section-color);
-    height: 100vh;
 }
 .portfolio .active {
     background-color: var(--red-color);
@@ -121,8 +120,20 @@ a.nav-link:hover {
     width: calc(100% - 10px);
     height: calc(100% - 10px);
     background-color: #00c7c0e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.3s;
+    transform: translateX(calc(-100% - 5px));
 }
 /* End portfolio section */
+
+/* Start About section */
+.about {
+    height: 100vh;
+}
+/* End About section */
 
 /* media query */
 @media screen and (max-width: 320px) {
