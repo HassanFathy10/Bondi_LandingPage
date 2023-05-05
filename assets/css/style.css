@@ -135,6 +135,15 @@ a.nav-link:hover {
 }
 /* End About section */
 
+/* Start Contact section */
+.contact {
+    background-color: var(--section-color);
+}
+.contact .title {
+    color: var(--yellow-color);
+}
+/* End Contact section */
+
 /* media query */
 @media screen and (max-width: 320px) {
     body {
