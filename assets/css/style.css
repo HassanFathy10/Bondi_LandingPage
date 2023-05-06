@@ -146,6 +146,12 @@ a.nav-link:hover {
     background-color: var(--green-color);
 }
 /* End Contact section */
+.work {
+    background-color: var(--dark-color);
+}
+/* Start work section */
+
+/* End work section */
 
 /* media query */
 @media screen and (max-width: 320px) {
