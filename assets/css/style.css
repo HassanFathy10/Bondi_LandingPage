@@ -155,10 +155,16 @@ a.nav-link:hover {
 
 /* Start story section */
 .story {
-    height: 100vh;
+    background-color: white;
 } 
 .story .container .card {
     background-color: var(--section-color);
+}
+/* End story section */
+
+/* Start story section */
+.subscribe {
+    background-color: var(--yellow-color);
 }
 /* End story section */
 
