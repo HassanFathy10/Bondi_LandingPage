@@ -146,12 +146,21 @@ a.nav-link:hover {
     background-color: var(--green-color);
 }
 /* End Contact section */
+
+/* Start work section */
 .work {
     background-color: var(--dark-color);
 }
-/* Start work section */
-
 /* End work section */
+
+/* Start story section */
+.story {
+    height: 100vh;
+} 
+.story .container .card {
+    background-color: var(--section-color);
+}
+/* End story section */
 
 /* media query */
 @media screen and (max-width: 320px) {
