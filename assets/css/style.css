@@ -162,11 +162,19 @@ a.nav-link:hover {
 }
 /* End story section */
 
-/* Start story section */
+/* Start subscribe section */
 .subscribe {
     background-color: var(--yellow-color);
 }
-/* End story section */
+.subscribe .email {
+    background-color: var(--yellow-color);
+    border-bottom: 1px solid white !important;
+}
+.subscribe a {
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+}
+/* End subscribe section */
 
 /* media query */
 @media screen and (max-width: 320px) {
