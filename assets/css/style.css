@@ -20,6 +20,17 @@ body {
 .btn-primary:hover {
     color: var(--dark-color) !important;
 }
+.scroll-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #cc1 !important;
+    border: none;
+    display: none;
+}
+button:hover{
+    color: var(--red-color) !important;
+}
 
 /* Start navbar */
 .navbar {
