@@ -126,6 +126,10 @@ a.nav-link:hover {
     font-weight: bold;
     transition: 0.3s;
     transform: translateX(calc(-100% - 5px));
+    cursor: pointer;
+}
+.portfolio .box:hover::before {
+    transform: translateX(0);
 }
 /* End portfolio section */
 
