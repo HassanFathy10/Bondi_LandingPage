@@ -6,6 +6,9 @@
     --numbers-color: #94808025;
     --section-color: #eff7fa;
 }
+* {
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Roboto", sans-serif;
 }
