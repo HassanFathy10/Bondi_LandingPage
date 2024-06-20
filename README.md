@@ -21,10 +21,10 @@ This project showcases my ability to convert a Figma design into responsive HTML
 ## Screenshots
 
 ### Desktop View
-![Desktop View](screenshots/desktop-view.png)
+![Desktop View](assets/screenshots/desktop-view.png.png)
 
 ### Mobile View
-![Mobile View](screenshots/mobile-view.png)
+![Mobile View](assets/screenshots/mobile-view.png)
 
 ## Live Demo
 
